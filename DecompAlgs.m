@@ -306,7 +306,7 @@ end intrinsic;
 
 intrinsic VectorSpace(A::DecAlg) -> Alg
   {
-    Returns the underlying algebra for A.
+    Returns the underlying vector space for A.
   }
   return VectorSpace(Algebra(A));
 end intrinsic;
